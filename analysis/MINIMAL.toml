@@ -1,0 +1,17 @@
+# leading comment
+root = 1 # root trailing
+
+title.sub = "s"
+meta = { x = 1, y = 2 } # inline trailing
+
+[a]
+b = 1 # leaf trailing
+sibling = 0
+
+[[products]]
+id = 1
+name = "hammer" # product trailing
+
+[[products]]
+id = 2
+name = "nail"
